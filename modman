@@ -1,20 +1,20 @@
-fishpig-wpi-4.2.0.8/app/code/community/Fishpig/Wordpress/    /app/code/community/Fishpig/Wordpress/
+fishpig-wpi-4.2.0.8/app/code/community/Fishpig/Wordpress/    app/code/community/Fishpig/Wordpress/
 
-fishpig-wpi-4.2.0.8/app/design/adminhtml/default/default/layout/wordpress.xml   /app/design/adminhtml/default/default/layout/wordpress.xml
-fishpig-wpi-4.2.0.8/app/design/adminhtml/default/default/template/wordpress/   /app/design/adminhtml/default/default/template/wordpress/
-fishpig-wpi-4.2.0.8/app/design/frontend/base/default/layout/wordpress.xml   /app/design/frontend/base/default/layout/wordpress.xml
-fishpig-wpi-4.2.0.8/app/design/frontend/base/default/template/wordpress/   /app/design/frontend/base/default/template/wordpress/
-fishpig-wpi-4.2.0.8/app/design/frontend/base/default/template/wordpress-addons/    /app/design/frontend/base/default/template/wordpress-addons/
+fishpig-wpi-4.2.0.8/app/design/adminhtml/default/default/layout/wordpress.xml   app/design/adminhtml/default/default/layout/wordpress.xml
+fishpig-wpi-4.2.0.8/app/design/adminhtml/default/default/template/wordpress/   app/design/adminhtml/default/default/template/wordpress/
+fishpig-wpi-4.2.0.8/app/design/frontend/base/default/layout/wordpress.xml   app/design/frontend/base/default/layout/wordpress.xml
+fishpig-wpi-4.2.0.8/app/design/frontend/base/default/template/wordpress/   app/design/frontend/base/default/template/wordpress/
+fishpig-wpi-4.2.0.8/app/design/frontend/base/default/template/wordpress-addons/    app/design/frontend/base/default/template/wordpress-addons/
 
-fishpig-wpi-4.2.0.8/app/etc/modules/Fishpig_Wordpress.xml   /app/etc/modules/Fishpig_Wordpress.xml
-fishpig-wpi-4.2.0.8/app/locale/de_DE/Fishpig_Wordpress.csv    /app/locale/de_DE/Fishpig_Wordpress.csv
-fishpig-wpi-4.2.0.8/app/locale/en_US/Fishpig_Wordpress.csv    /app/locale/en_US/Fishpig_Wordpress.csv
-fishpig-wpi-4.2.0.8/app/locale/en_GB/Fishpig_Wordpress.csv    /app/locale/en_GB/Fishpig_Wordpress.csv
+fishpig-wpi-4.2.0.8/app/etc/modules/Fishpig_Wordpress.xml   app/etc/modules/Fishpig_Wordpress.xml
+fishpig-wpi-4.2.0.8/app/locale/de_DE/Fishpig_Wordpress.csv    app/locale/de_DE/Fishpig_Wordpress.csv
+fishpig-wpi-4.2.0.8/app/locale/en_US/Fishpig_Wordpress.csv    app/locale/en_US/Fishpig_Wordpress.csv
+fishpig-wpi-4.2.0.8/app/locale/en_GB/Fishpig_Wordpress.csv    app/locale/en_GB/Fishpig_Wordpress.csv
 
-fishpig-wpi-4.2.0.8/js/fishpig/wordpress/    /js/fishpig/wordpress/
-fishpig-wpi-4.2.0.8/skin/frontend/base/default/wordpress/    /skin/frontend/base/default/wordpress/
+fishpig-wpi-4.2.0.8/js/fishpig/wordpress/    js/fishpig/wordpress/
+fishpig-wpi-4.2.0.8/skin/frontend/base/default/wordpress/    skin/frontend/base/default/wordpress/
 
-Magazin/app/design/horsebrands-r/default/layout/wordpress.xml  /app/design/horsebrands-r/default/layout/wordpress.xml
-Magazin/app/design/horsebrands-r/default/template/wordpress/  /app/design/horsebrands-r/default/template/wordpress/
+Magazin/app/design/horsebrands-r/default/layout/wordpress.xml  app/design/horsebrands-r/default/layout/wordpress.xml
+Magazin/app/design/horsebrands-r/default/template/wordpress/  app/design/horsebrands-r/default/template/wordpress/
 
-Magazin/skin/frontend/horsebrands-r/default/wordpress/    /skin/frontend/horsebrands-r/default/wordpress/
+Magazin/skin/frontend/horsebrands-r/default/wordpress/    skin/frontend/horsebrands-r/default/wordpress/
