@@ -14,3 +14,7 @@ fishpig-wpi-4.2.0.8/app/locale/en_GB/Fishpig_Wordpress.csv    app/locale/en_GB/F
 
 fishpig-wpi-4.2.0.8/js/fishpig/wordpress/    js/fishpig/wordpress/
 fishpig-wpi-4.2.0.8/skin/frontend/base/default/wordpress/    skin/frontend/base/default/wordpress/
+
+magazin/app/design/frontend/horsebrands-r/default/layout/wordpress.xml   app/design/frontend/horsebrands-r/default/layout/wordpress.xml
+magazin/app/design/frontend/horsebrands-r/default/template/wordpress/   app/design/frontend/horsebrands-r/default/template/wordpress/
+magazin/skin/frontend/horsebrands-r/default/wordpress/    skin/frontend/horsebrands-r/default/wordpress/

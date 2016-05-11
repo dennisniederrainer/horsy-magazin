@@ -1,0 +1,18 @@
+<?php $post = $this->getPost() ?>
+<div class="post-list-item">
+  <?php echo $this->getAfterPostContentHtml() ?>
+  <?php if ($featuredImage = $post->getFeaturedImage()): ?>
+    <div class="featured-image">
+      <a href="<?php echo $post->getPermalink() ?>" title="<?php echo $this->escapeHtml($post->getPostTitle()) ?>"><img src="<?php echo $featuredImage->getFullSizeImage() ?>" alt="<?php echo $this->escapeHtml($post->getPostTitle()) ?>"/></a>
+    </div>
+  <?php endif; ?>
+	<h2><a href="<?php echo $post->getPermalink() ?>" title="<?php echo $this->escapeHtml($post->getPostTitle()) ?>"><?php echo $this->escapeHtml($post->getPostTitle()) ?></a></h2>
+	<?php echo $this->getBeforePostContentHtml() ?>
+	<div class="post-entry entry<?php if ($post->getFeaturedImage()): ?> post-entry-with-image<?php endif; ?>">
+		<?php echo $post->getPostExcerpt(40) ?>
+    <div class="continue-reading">
+      <a href="<?php echo $post->getPermalink() ?>" title="<?php echo $this->escapeHtml($post->getPostTitle()) ?>"><?php echo $this->__('Continue reading <span class=\"meta-nav\">&rarr;</span>') ?></a>
+    </div>
+  </br/>
+	</div>
+</div>

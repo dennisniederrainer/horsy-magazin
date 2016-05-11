@@ -1,0 +1,20 @@
+<?php if ($post = $this->getPost()): ?>
+	<?php $tagString = $this->getTermsAsHtml($post, 'post_tag') ?>
+	<?php $categoryString = $this->getTermsAsHtml($post, 'category') ?>
+	<?php echo Mage::helper('wordpress/social')->getButtons($post) ?>
+	<div class="post-meta details">
+  	<?php if ($categoryString): ?>
+      <?php echo stripslashes($this->__('<span class="post-category-list">%s</span> erstellt am %s', $categoryString, $post->getPostDate())) ?>
+  	<?php endif; ?>
+  </div>
+  <?php if ($this->canDisplayPreviousNextLinks()): ?>
+    <div class="post-skips clearfix">
+      <?php if (($previous = $post->getPreviousPost()) !== false): ?>
+        <a href="<?php echo $previous->getPermalink() ?>" class="post-skip post-skip-previous" title="<?php echo $this->escapeHtml($previous->getPostTitle()) ?>">&larr; <?php echo $this->escapeHtml($previous->getPostTitle()) ?></a>
+      <?php endif; ?>
+      <?php if (($next = $post->getNextPost()) !== false): ?>
+        <a href="<?php echo $next->getPermalink() ?>" class="post-skip post-skip-next right" title="<?php echo $this->escapeHtml($next->getPostTitle()) ?>"><?php echo $this->escapeHtml($next->getPostTitle()) ?> &rarr;</a>
+      <?php endif; ?>
+    </div>
+  <?php endif; ?>
+<?php endif; ?>
